@@ -18,7 +18,8 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 300px;
+  height: auto;
+  min-height: 300px;
   color: white;
   display: flex;
   align-items: center; 
@@ -120,7 +121,6 @@ ul li {
   padding: 1rem 1.5rem;
   margin-bottom: 1rem;
   box-shadow: 0 4px 8px rgba(76, 175, 80, 0.15);
-  font-weight: 600;
   transition: transform 0.2s ease;
   color: #2f5d27; 
 }
@@ -132,15 +132,15 @@ ul li {
   padding: 1rem 1.5rem;
   margin-bottom: 1rem;
   box-shadow: 0 4px 8px rgba(76, 175, 80, 0.15);
-  font-weight: 600;
   transition: transform 0.2s ease;
 }
 
 .year {
-  float: right;
-  font-weight: normal;
-  font-size: 0.95rem;
-  color: #666;
+  display: block;        
+  margin-top: 1rem;     
+  color: #555; 
+  font-size: 0.9rem;
+  text-align: right;
 }
 
 .fav::before {
