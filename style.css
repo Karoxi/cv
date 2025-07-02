@@ -143,6 +143,14 @@ ul li {
   text-align: right;
 }
 
+.fav {
+  background-color: #fbf5f7;
+  border: 2px solid #e6c9cf;
+  box-shadow: 0 4px 8px rgba(230, 201, 207, 0.1);
+  color: #8a5d66;
+}
+
+
 .fav::before {
   content: "★";
   color: #333333; 
