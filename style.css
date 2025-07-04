@@ -1,9 +1,44 @@
 body {
+  position: relative;
   font-family: Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
-  background: linear-gradient(#ebf5df, #bad4aa);
   color: #222;
+  overflow-x: hidden;
+}
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(
+    45deg,
+    #7cde6f,             
+    #a6e8a0,        
+    #f7dede,        
+    #9bd892,                 
+    #f6e1e1,  
+    #82c572                     
+  );
+  background-size: 400% 400%;
+  animation: gentleShift 40s ease-in-out infinite;
+  z-index: -1;
+  pointer-events: none;
+}
+
+@keyframes gentleShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h1, h2{
+font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace;
 }
 
 .container {
@@ -195,8 +230,6 @@ ul li {
 .carousel img {
   width: 100%;
   height: auto;
-  border-radius: 6px;  
-  border: 2px solid #cde6cd;  
 }
 
 .carousel figcaption {
@@ -227,15 +260,15 @@ ul li {
 .card-images {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Bilder mittig ausrichten */
+  justify-content: center; 
   gap: 1rem;
 }
 
 .card-images a {
-  flex: 1 1 180px; /* wächst, schrumpft, Basis 180px */
-  max-width: 100%; /* nie breiter als Container */
+  flex: 1 1 180px; 
+  max-width: 100%; 
   display: block;
-  min-width: 0; /* wichtig für korrekten Shrink */
+  min-width: 0; 
 }
 
 .card-images a img {
