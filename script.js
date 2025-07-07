@@ -1,4 +1,4 @@
-  const carousel = document.querySelector('.carousel');
+document.querySelectorAll('.carousel, .carousel-2').forEach(carousel => {
   const items = carousel.querySelectorAll('.carousel-item');
   const prevBtn = carousel.querySelector('.prev');
   const nextBtn = carousel.querySelector('.next');
@@ -15,3 +15,4 @@
     current = (current - 1 + items.length) % items.length;
     items[current].classList.add('active');
   };
+});
