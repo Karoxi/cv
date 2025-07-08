@@ -281,6 +281,42 @@ ul li {
   border-radius: 4px;
 }
 
+#quote-box {
+  text-align: center;
+  max-width: 600px;
+  margin: 50px auto;
+  font-family: sans-serif;
+}
+
+#quote-text {
+  font-size: 1.5rem; /* etwas größer */
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+#quote-author {
+  font-size: 1rem;
+  font-style: italic;
+  color: #555;
+}
+
+#new-quote {
+  background-color: rgba(229, 164, 180, 0.8);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#new-quote:hover {
+  background-color: rgba(229, 164, 180, 1);
+  transform: scale(1.05); 
+}
+
+
 
 
 
