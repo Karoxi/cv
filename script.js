@@ -44,8 +44,17 @@ const devQuotes = [
 
 ]
 
+let lastIndex = -1; 
+
 function loadQuote() {
-  const randomIndex = Math.floor(Math.random() * devQuotes.length);
+  let randomIndex;
+
+  do {
+    randomIndex = Math.floor(Math.random() * devQuotes.length);
+  } while (randomIndex === lastIndex && devQuotes.length > 1);
+
+  lastIndex = randomIndex;
+
   const quote = devQuotes[randomIndex];
   document.getElementById("quote-text").innerText = `"${quote.quote}"`;
   document.getElementById("quote-author").innerText = `${quote.author}`;
@@ -54,4 +63,5 @@ function loadQuote() {
 document.getElementById("new-quote").addEventListener("click", loadQuote);
 
 loadQuote();
+
 
