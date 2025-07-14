@@ -10,254 +10,264 @@
 
 <body>
     <header class="site-header">
-        <div class="overlay"></div>
-        <div class="container header-content">
-            <div class="text-block">
-                <h1>Karoline Sorg</h1>
-                <p>Junior Developer – Fachinformatikerin für Anwendungsentwicklung (IHK)</p>
-                <div class="profile-image">
-                    <img src="ks.jpeg" alt="Portrait von Karoline Sorg" />
-                </div>
+        <div class="split-header">
+            <div class="header-left">
+                <img src="bg.webp" alt="Headerbild Webdev" />
+            </div>
+
+            <div class="header-right">
+                <div class="text-block">
+                    <h1>Karoline Sorg</h1>
+                    <p>Webdeveloper – Fachinformatikerin für Anwendungsentwicklung (IHK)</p>
+                    <div class="profile-image">
+                        <img src="ks.jpeg" alt="Portrait von Karoline Sorg" />
+                    </div>
                     <nav>
-                        <a href="https://github.com/Karoxi" target="_blank" title="https://github.com/Karoxi">GitHub</a>
-                        <a href="https://www.boot.dev/u/karoxi" target="_blank"
-                            title="https://www.boot.dev/u/karoxi">Boot.dev</a>
-                        <a href="https://www.linkedin.com/in/karoline-s-018b47174/">LinkedIn</a>
+                        <a href="https://github.com/Karoxi" target="_blank">GitHub</a>
+                        <a href="https://www.boot.dev/u/karoxi" target="_blank">Boot.dev</a>
+                        <a href="https://www.linkedin.com/in/karoline-s-018b47174/" target="_blank">LinkedIn</a>
+                        <a href="mailto:karoline.sorg@gmx.de">Email</a>
                     </nav>
+                </div>
             </div>
         </div>
-
     </header>
 
-    <main class="container">
-
-        <div id="quote-box">
-        <p id="quote-text"></p>
-        <p id="quote-author"></p>
-        <button id="new-quote">Neues Zitat</button>
-        </div>
 
 
-
-        <h2>Über mich</h2>
-        <div class="card">
-            <p>
-                Ich bin ausgebildete Anwendungsentwicklerin mit Schwerpunkt Webentwicklung und UX-Design und studiere derzeit
-                Wirtschaftspsychologie.
-            </p>
-        </div>
-        <div class="card">
-            <p> <strong>Mein Tech-Stack:</strong> Python, JavaScript/Typescript, HTML, CSS, Vue.js, SQL, Git, VSCode, Windows und WSL.</p>
-        </div>
-
-        <h2>Was ich suche</h2>
-        <div class="card">
-            <p>
-                Ich suche eine Teilzeit oder Werkstudierendenstelle im Bereich Entwicklung – Frontend, Backend oder Fullstack.
-            </p>
-        </div>
-
-
-
-        <section>
-            <h2>Berufserfahrung</h2>
-
-            <div class="card current">
-                <h3>
-                    <strong>Lebenshilfe</strong><br> Ehrenamt Offene Hilfen, Oftersheim
-                </h3>
-                <ul>
-                    <li>Organisieren und Durchführen von Freizeitangeboten</li>
-                    <li>Sowie Reisebegleitung von Menschen mit Behinderung</li>
-                </ul>
-                <p class="year">12/2024 – jetzt</p>
+    <main>
+        <section class="light">
+            <div class="container">
+                <div id="quote-box">
+                    <p id="quote-text"></p>
+                    <p id="quote-author"></p>
+                    <button id="new-quote">Neues Zitat</button>
+                </div>
             </div>
+        </section>
 
-            <div class="card fav">
-                <h3>
-                    <strong>Dr Siegfried Kahlich und Dirk Langer GmbH</strong><br> Ausbildung Fachinformatikerin für
-                    Anwendungsentwicklung, Heidelberg
-                </h3>
-                <ul>
-                    <li>Python-Programmierung</li>
-                    <li>Webentwicklung (Vue.js, HTML, CSS, JavaScript)</li>
-                    <li>Ausbildungsbegleitender Erwerb der Fachhochschulreife</li>
-                </ul>
-                <p class="year">09/2021 – 07/2024</p>
-            </div>
-
-            <div class="card">
-                <h3>
-                    <strong>The Do-School, Berlin</strong><br> 24 You Stipendium
-                </h3>
-                <ul>
-                    <li>Persönlichkeitsentwicklung und Zukunftsplanung</li>
-                    <li>Projekte mit Schwerpunkt soziales Wirtschaften</li>
-                </ul>
-                <div class="card-images">
-                <a href="certs/24you_s1.png" target="_blank" rel="noopener noreferrer">
-                    <img src="certs/24you_s1.png" alt="Zertifikat 1">
-                </a>
-                <a href="certs/24you_s2.png" target="_blank" rel="noopener noreferrer">
-                    <img src="certs/24you_s2.png" alt="Zertifikat 2">
-                </a>
+        <section class="über-mich light">
+            <div class="container">
+                <h2>Über mich</h2>
+                <div class="card">
+                    <p>
+                        Ich bin ausgebildete Anwendungsentwicklerin mit Schwerpunkt <span
+                            class="strong">Webentwicklung</span> mit Erfarung in <span class="highlight"> JavaScript,
+                            HTML, CSS, Vue.js, SQL, REST APIs, Node.js, Python, Git & TortoiseHG</span>
+                    </p>
                 </div>
 
-                <p class="year">08/2019 – 01/2020</p>
-            </div>
-
-            <div class="card">
-                <h3>
-                    <strong>Weingut Krauß, Lambsheim</strong><br> Winzer Aushilfe (Minijob)
-                </h3>
-                <ul>
-                    <li>Arbeiten im Weinberg (Entblättern, Drähte hochziehen, Pheromone aufhängen)</li>
-                    <li>Abfüllung des Weines in Flaschen</li>
-                </ul>
-                <p class="year">04/2019 – 07/2019</p>
-            </div>
-
-            <div class="card">
-                <h3>
-                    <strong>Gharieni Group, Moers</strong><br> Produktionshelferin (Minijob)
-                </h3>
-                <ul>
-                    <li>Möbel vormontieren</li>
-                    <li>Bestellungen zusammenstellen</li>
-                </ul>
-                <p class="year">09/2018 – 12/2018</p>
-            </div>
-
-            <div class="card">
-                <h3>
-                    <strong>WSA-Trier, Bernkastel-Kues</strong><br> Ausbildung Binnenschifferin
-                </h3>
-                <ul>
-                    <li>Schleusen, An-/Ablegen</li>
-                    <li>Handwerkliche Arbeit, Instandhaltung</li>
-                    <li>Hauswirtschaftliche Tätigkeiten</li>
-                </ul>
-                <p class="year">08/2017 – 07/2018</p>
+                <h2>Was ich suche</h2>
+                <div class="card">
+                    <p>
+                        Ich suche eine <span class="strong">Teilzeit oder Werkstudierendenstelle</span> im Bereich <span
+                            class="highlight">Webentwicklung</span>
+                </div>
             </div>
         </section>
 
 
-        <section>
-            <h2>Studium</h2>
-            <ul>
-                <li class="card current">
-                    <strong>Hochschule für Wirtschaft und Gesellschaft</strong> <br>
-                    Wirtschaftspsychologie, Ludwigshafen
-                    <p class="year">09/2024 – jetzt</p>
-                </li>
-                <li class="card">
-                    <strong>Diploma Hochschule</strong> <br>
-                    Grafikdesign, Bad Sooden-Allendorf
-                    <p class="year">04/2020 – 08/2021</p>
-                </li>
+        <section class="berufserfahrung dark">
+            <div class="container">
+                <h2>Berufserfahrung</h2>
 
-            </ul>
-        </section>
+                <div class="card current">
+                    <h3>
+                        <strong>Lebenshilfe</strong><br> Ehrenamt Offene Hilfen, Oftersheim
+                    </h3>
+                    <ul>
+                        <li>Organisieren und Durchführen von Freizeitangeboten</li>
+                        <li>Sowie Reisebegleitung von Menschen mit Behinderung</li>
+                    </ul>
+                    <p class="year">12/2024 – jetzt</p>
+                </div>
 
-        <section>
-            <h2>Weiterbildung</h2>
-            <ul>
-                <li class="card current">
-                    <strong>Boot.dev</strong> <br> Backend Developer Path
-                    <p class="year">04/2024 – jetzt</p>
-                    <div class="carousel carousel-2">
-                    <button class="prev">&#10094;</button>
-                    <figure class="carousel-item active">
-                        <figcaption>BootDev Certificate Linux</figcaption>
-                        <a href="certs/bootdev_certificate_linux.png" target="_blank" rel="noopener noreferrer">
-                        <img src="certs/bootdev_certificate_linux.png" alt="BootDev Certificate Linux">
+                <div class="card fav">
+                    <h3>
+                        <strong>Dr Siegfried Kahlich und Dirk Langer GmbH</strong><br> Ausbildung Fachinformatikerin für
+                        Anwendungsentwicklung, Heidelberg
+                    </h3>
+                    <ul>
+                        <li>Python-Programmierung</li>
+                        <li>Webentwicklung (Vue.js, HTML, CSS, JavaScript)</li>
+                        <li>Ausbildungsbegleitender Erwerb der Fachhochschulreife</li>
+                    </ul>
+                    <p class="year">09/2021 – 07/2024</p>
+                </div>
+
+                <div class="card">
+                    <h3>
+                        <strong>The Do-School, Berlin</strong><br> 24 You Stipendium
+                    </h3>
+                    <ul>
+                        <li>Persönlichkeitsentwicklung und Zukunftsplanung</li>
+                        <li>Projekte mit Schwerpunkt soziales Wirtschaften</li>
+                    </ul>
+                    <div class="card-images">
+                        <a href="certs/24you_s1.png" target="_blank" rel="noopener noreferrer">
+                            <img src="certs/24you_s1.png" alt="Zertifikat 1">
                         </a>
-                    </figure>
-                    <figure class="carousel-item">
-                        <figcaption>BootDev Certificate HTTP Clients</figcaption>
-                        <a href="certs/bootdev_certificate_http_clients.png" target="_blank" rel="noopener noreferrer">
-                        <img src="certs/bootdev_certificate_http_clients.png" alt="BootDev Certificate HTTP Clients">
+                        <a href="certs/24you_s2.png" target="_blank" rel="noopener noreferrer">
+                            <img src="certs/24you_s2.png" alt="Zertifikat 2">
                         </a>
-                    </figure>
-                    <figure class="carousel-item">
-                        <figcaption>BootDev Certificate Git</figcaption>
-                        <a href="certs/bootdev_certificate_git.png" target="_blank" rel="noopener noreferrer">
-                        <img src="certs/bootdev_certificate_git.png" alt="BootDev Certificate Git">
-                        </a>
-                    </figure>
-                    <figure class="carousel-item">
-                        <figcaption>BootDev Certificate SQL</figcaption>
-                        <a href="certs/bootdev_certificate_sql.png" target="_blank" rel="noopener noreferrer">
-                        <img src="certs/bootdev_certificate_sql.png" alt="BootDev Certificate SQL">
-                        </a>
-                    </figure>
-                    <button class="next">&#10095;</button>
                     </div>
-                </li>
-            </ul>
+                    <p class="year">08/2019 – 01/2020</p>
+                </div>
+
+                <div class="card">
+                    <h3>
+                        <strong>Weingut Krauß, Lambsheim</strong><br> Winzer Aushilfe (Minijob)
+                    </h3>
+                    <ul>
+                        <li>Arbeiten im Weinberg (Entblättern, Drähte hochziehen, Pheromone aufhängen)</li>
+                        <li>Abfüllung des Weines in Flaschen</li>
+                    </ul>
+                    <p class="year">04/2019 – 07/2019</p>
+                </div>
+
+                <div class="card">
+                    <h3>
+                        <strong>Gharieni Group, Moers</strong><br> Produktionshelferin (Minijob)
+                    </h3>
+                    <ul>
+                        <li>Möbel vormontieren</li>
+                        <li>Bestellungen zusammenstellen</li>
+                    </ul>
+                    <p class="year">09/2018 – 12/2018</p>
+                </div>
+
+                <div class="card">
+                    <h3>
+                        <strong>WSA-Trier, Bernkastel-Kues</strong><br> Ausbildung Binnenschifferin
+                    </h3>
+                    <ul>
+                        <li>Schleusen, An-/Ablegen</li>
+                        <li>Handwerkliche Arbeit, Instandhaltung</li>
+                        <li>Hauswirtschaftliche Tätigkeiten</li>
+                    </ul>
+                    <p class="year">08/2017 – 07/2018</p>
+                </div>
+            </div>
         </section>
 
-        <section>
-            <h2>Schulbildung</h2>
-            <ul>
-                <li class="card">
-                    <strong>Werner-Heisenberg-Gymnasium</strong> - Mittlere Reife <br>
-                    Bad Dürkheim
-                    <p class="year">02/2016 – 07/2017</p>
-                </li>
-                <li class="card">
-                    <strong>Heinrich-Heine-Gymnasium</strong> <br>
-                    Kaiserslautern
-                    <p class="year">02/2014 – 02/2016</p>
-                </li>
-                <li class="card">
-                    <strong>Integrierte Gesamtschule</strong> <br>
-                    Wachenheim/Deidesheim
-                    <p class="year">08/2011 – 02/2014</p>
-                </li>
 
-            </ul>
-        </section>
-
-        <section>
-            <h2>Sonstiges</h2>
-
-            <div class="card">
-                <strong>Vereinsmitgliedschaften:</strong>
+        <section class="bildung light">
+            <div class="container">
+                <h2>Studium</h2>
                 <ul>
-                    <li>Mensa in Deutschland e.V.</li>
-                    <li>Women in Tech e.V.</li>
-                    <li>Deutscher Alpenverein e.V.</li>
+                    <li class="card current">
+                        <strong>Hochschule für Wirtschaft und Gesellschaft</strong> <br>
+                        Wirtschaftspsychologie, Ludwigshafen
+                        <p class="year">09/2024 – jetzt</p>
+                    </li>
+                    <li class="card">
+                        <strong>Diploma Hochschule</strong> <br>
+                        Grafikdesign, Bad Sooden-Allendorf
+                        <p class="year">04/2020 – 08/2021</p>
+                    </li>
+
+                </ul>
+
+                <h2>Weiterbildung</h2>
+                <ul>
+                    <li class="card current">
+                        <strong>Boot.dev</strong> <br> Backend Developer Path
+                        <p class="year">04/2024 – jetzt</p>
+                        <div class="carousel carousel-2">
+                            <button class="prev">&#10094;</button>
+                            <figure class="carousel-item active">
+                                <figcaption>BootDev Certificate Linux</figcaption>
+                                <a href="certs/bootdev_certificate_linux.png" target="_blank" rel="noopener noreferrer">
+                                    <img src="certs/bootdev_certificate_linux.png" alt="BootDev Certificate Linux">
+                                </a>
+                            </figure>
+                            <figure class="carousel-item">
+                                <figcaption>BootDev Certificate HTTP Clients</figcaption>
+                                <a href="certs/bootdev_certificate_http_clients.png" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <img src="certs/bootdev_certificate_http_clients.png"
+                                        alt="BootDev Certificate HTTP Clients">
+                                </a>
+                            </figure>
+                            <figure class="carousel-item">
+                                <figcaption>BootDev Certificate Git</figcaption>
+                                <a href="certs/bootdev_certificate_git.png" target="_blank" rel="noopener noreferrer">
+                                    <img src="certs/bootdev_certificate_git.png" alt="BootDev Certificate Git">
+                                </a>
+                            </figure>
+                            <figure class="carousel-item">
+                                <figcaption>BootDev Certificate SQL</figcaption>
+                                <a href="certs/bootdev_certificate_sql.png" target="_blank" rel="noopener noreferrer">
+                                    <img src="certs/bootdev_certificate_sql.png" alt="BootDev Certificate SQL">
+                                </a>
+                            </figure>
+                            <button class="next">&#10095;</button>
+                        </div>
+                    </li>
+                </ul>
+
+                <h2>Schulbildung</h2>
+                <ul>
+                    <li class="card">
+                        <strong>Werner-Heisenberg-Gymnasium</strong> - Mittlere Reife <br>
+                        Bad Dürkheim
+                        <p class="year">02/2016 – 07/2017</p>
+                    </li>
+                    <li class="card">
+                        <strong>Heinrich-Heine-Gymnasium</strong> <br>
+                        Kaiserslautern
+                        <p class="year">02/2014 – 02/2016</p>
+                    </li>
+                    <li class="card">
+                        <strong>Integrierte Gesamtschule</strong> <br>
+                        Wachenheim/Deidesheim
+                        <p class="year">08/2011 – 02/2014</p>
+                    </li>
+
                 </ul>
             </div>
+        </section>
 
-<div class="card">
-  <strong>Wettbewerbe:</strong>
-  <div class="carousel">
-    <button class="prev">&#10094;</button>
-    <figure class="carousel-item active">
-      <figcaption>2. Platz Startup Teens 2017</figcaption>
-      <a href="certs/startupteens.png" target="_blank" rel="noopener noreferrer">
-        <img src="certs/startupteens.png" alt="2. Platz Startup Teens 2017">
-      </a>
-    </figure>
-    <figure class="carousel-item">
-      <figcaption>3. Preis Känguru der Mathematik 2015</figcaption>
-      <a href="certs/kaengurudermathematik.png" target="_blank" rel="noopener noreferrer">
-        <img src="certs/kaengurudermathematik.png" alt="3. Preis Känguru der Mathematik 2015">
-      </a>
-    </figure>
-    <figure class="carousel-item">
-      <figcaption>3. Rang Informatik Biber 2014</figcaption>
-      <a href="certs/informatikbiber.png" target="_blank" rel="noopener noreferrer">
-        <img src="certs/informatikbiber.png" alt="3. Rang Informatik Biber 2014">
-      </a>
-    </figure>
-    <button class="next">&#10095;</button>
-  </div>
-</div>
+        <section class="sonstiges dark">
+            <div class="container">
+                <h2>Sonstiges</h2>
 
+                <div class="card">
+                    <strong>Vereinsmitgliedschaften:</strong>
+                    <ul>
+                        <li>Mensa in Deutschland e.V.</li>
+                        <li>Women in Tech e.V.</li>
+                        <li>Deutscher Alpenverein e.V.</li>
+                    </ul>
+                </div>
 
+                <div class="card">
+                    <strong>Wettbewerbe:</strong>
+                    <div class="carousel">
+                        <button class="prev">&#10094;</button>
+                        <figure class="carousel-item active">
+                            <figcaption>2. Platz Startup Teens 2017</figcaption>
+                            <a href="certs/startupteens.png" target="_blank" rel="noopener noreferrer">
+                                <img src="certs/startupteens.png" alt="2. Platz Startup Teens 2017">
+                            </a>
+                        </figure>
+                        <figure class="carousel-item">
+                            <figcaption>3. Preis Känguru der Mathematik 2015</figcaption>
+                            <a href="certs/kaengurudermathematik.png" target="_blank" rel="noopener noreferrer">
+                                <img src="certs/kaengurudermathematik.png" alt="3. Preis Känguru der Mathematik 2015">
+                            </a>
+                        </figure>
+                        <figure class="carousel-item">
+                            <figcaption>3. Rang Informatik Biber 2014</figcaption>
+                            <a href="certs/informatikbiber.png" target="_blank" rel="noopener noreferrer">
+                                <img src="certs/informatikbiber.png" alt="3. Rang Informatik Biber 2014">
+                            </a>
+                        </figure>
+                        <button class="next">&#10095;</button>
+                    </div>
+                </div>
+
+            </div>
         </section>
 
     </main>
